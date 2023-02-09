@@ -18,13 +18,13 @@ const Content = styled.div`
 `;
 
 const H1 = styled.h1`
-  padding: 10px;
+  padding: 20px;
 `;
 
 export default ({ title, children }) => (
   <BodyDiv>
     <Header />
-    <h1>{title}</h1>
+    <H1>{title}</H1>
     <Content>{children}</Content>
     <Footer>
       <a href="" target="_blank" rel="noopener noreferrer">
