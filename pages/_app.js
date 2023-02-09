@@ -6,7 +6,12 @@ body{
     font-family: sans-serif;
     background-color: #333;
     color: #fff;
-    a{text-decoration: none;}
+    a{
+      color: #fff;
+      text-decoration: none;
+    &:hover{
+      color: rgba(255, 255, 255, 0.7)
+    }}
 }`;
 
 export default function App({ Component, pageProps }) {
