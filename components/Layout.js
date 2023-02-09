@@ -14,11 +14,11 @@ const Footer = styled.footer`
 `;
 
 const Content = styled.div`
-  padding: 20px;
+  padding: 30px;
 `;
 
 const H1 = styled.h1`
-  padding: 20px;
+  padding: 30px;
 `;
 
 export default ({ title, children }) => (
@@ -28,7 +28,7 @@ export default ({ title, children }) => (
     <Content>{children}</Content>
     <Footer>
       <a href="" target="_blank" rel="noopener noreferrer">
-        Powered by vercel
+        Powered by vercell
       </a>
     </Footer>
   </BodyDiv>
