@@ -7,29 +7,44 @@ const BodyDiv = styled.div`
 `;
 const Footer = styled.footer`
   background-color: #000;
-  padding: 20px;
   position: fixed;
   bottom: 0;
   width: 100vw;
 `;
 
+const FooterInner = styled.div`
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+`;
+
 const Content = styled.div`
-  padding: 30px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+`;
+
+const ConnetInner = styled.div`
+  padding: 20px;
 `;
 
 const H1 = styled.h1`
-  padding: 30px;
+  padding: 20px;
 `;
 
 export default ({ title, children }) => (
   <BodyDiv>
     <Header />
-    <H1>{title}</H1>
-    <Content>{children}</Content>
+    <Content>
+      <H1>{title}</H1>
+      <ConnetInner>{children}</ConnetInner>
+    </Content>
     <Footer>
-      <a href="" target="_blank" rel="noopener noreferrer">
-        Powered by vercell
-      </a>
+      <FooterInner>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          Powered by vercell
+        </a>
+      </FooterInner>
     </Footer>
   </BodyDiv>
 );
