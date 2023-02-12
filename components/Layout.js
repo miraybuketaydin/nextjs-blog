@@ -42,7 +42,7 @@ export default ({ title, children }) => (
     <Footer>
       <FooterInner>
         <a href="" target="_blank" rel="noopener noreferrer">
-          Powered by vercell
+          Powered by vercell - Sat Feb 11 2023 21:17:28 GMT+0300 (GMT+03:00)
         </a>
       </FooterInner>
     </Footer>
