@@ -20,7 +20,7 @@ const BlogWrapper = styled.div`
   gap: 10px;
 `;
 
-export default ({ posts }) => {
+export default function Index({ posts }) {
   return (
     <Layout title="Blog">
       Burada yazılar yer alacak

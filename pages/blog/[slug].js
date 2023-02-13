@@ -3,7 +3,7 @@ import matter from "gray-matter";
 import md from "markdown-it";
 import Layout from "../../components/Layout";
 
-export default ({ frontmatter, content }) => {
+export default function Slug({ frontmatter, content }) {
   const { title, author, category, date, bannerImage, tags } = frontmatter;
   // const router = useRouter();
   // const { slug } = router.query;

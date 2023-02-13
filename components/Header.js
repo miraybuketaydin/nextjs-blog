@@ -14,13 +14,15 @@ const HeaderInner = styled.div`
   gap: 20px;
 `;
 
-export default () => (
-  <HeaderDiv>
-    <HeaderInner>
-      <Button href="/">Ana Sayfa</Button>
-      <Button href="/about">Hakkımda</Button>
-      <Button href="/blog">Blog</Button>
-      <Button href="/contact">İletişim</Button>
-    </HeaderInner>
-  </HeaderDiv>
-);
+export default function Header() {
+  return (
+    <HeaderDiv>
+      <HeaderInner>
+        <Button href="/">Ana Sayfa</Button>
+        <Button href="/about">Hakkımda</Button>
+        <Button href="/blog">Blog</Button>
+        <Button href="/contact">İletişim</Button>
+      </HeaderInner>
+    </HeaderDiv>
+  );
+}

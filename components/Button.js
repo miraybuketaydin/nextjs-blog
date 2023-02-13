@@ -9,7 +9,7 @@ const StyledA = styled.a`
   }
 `;
 
-export default ({ href, children }) => {
+export default function Button ({ href, children }) {
   return (
     <a href={href} passHref>
       <StyledA borderSize={2}>{children}</StyledA>

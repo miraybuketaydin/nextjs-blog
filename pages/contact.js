@@ -49,7 +49,7 @@ const Error = styled.span`
   color: tomato;
 `;
 
-export default () => {
+export default function Contact() {
   const {
     register,
     handleSubmit,

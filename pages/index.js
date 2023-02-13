@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 
-export default () => {
+export default function Index() {
   return (
     <Layout title="Anasayfa">
       It is a long established fact that a reader will be distracted by the
@@ -14,4 +14,4 @@ export default () => {
       purpose (injected humour and the like).
     </Layout>
   );
-};
+}

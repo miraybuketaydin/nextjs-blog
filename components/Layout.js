@@ -32,19 +32,21 @@ const H1 = styled.h1`
   padding: 20px;
 `;
 
-export default ({ title, children }) => (
-  <BodyDiv>
-    <Header />
-    <Content>
-      <H1>{title}</H1>
-      <ConnetInner>{children}</ConnetInner>
-    </Content>
-    <Footer>
-      <FooterInner>
-        {/* <a href="" target="_blank" rel="noopener noreferrer">
+export default function Layout({ title, children }) {
+  return (
+    <BodyDiv>
+      <Header />
+      <Content>
+        <H1>{title}</H1>
+        <ConnetInner>{children}</ConnetInner>
+      </Content>
+      <Footer>
+        <FooterInner>
+          {/* <a href="" target="_blank" rel="noopener noreferrer">
           Powered by vercell - Sat Feb 11 2023 21:17:28 GMT+0300 (GMT+03:00)
         </a> */}
-      </FooterInner>
-    </Footer>
-  </BodyDiv>
-);
+        </FooterInner>
+      </Footer>
+    </BodyDiv>
+  );
+}
