@@ -20,6 +20,7 @@ export default () => (
       <Button href="/">Ana Sayfa</Button>
       <Button href="/about">Hakkımda</Button>
       <Button href="/blog">Blog</Button>
+      <Button href="/contact">İletişim</Button>
     </HeaderInner>
   </HeaderDiv>
 );

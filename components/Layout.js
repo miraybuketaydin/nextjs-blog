@@ -41,9 +41,9 @@ export default ({ title, children }) => (
     </Content>
     <Footer>
       <FooterInner>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        {/* <a href="" target="_blank" rel="noopener noreferrer">
           Powered by vercell - Sat Feb 11 2023 21:17:28 GMT+0300 (GMT+03:00)
-        </a>
+        </a> */}
       </FooterInner>
     </Footer>
   </BodyDiv>
