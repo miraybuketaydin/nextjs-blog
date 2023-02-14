@@ -29,7 +29,12 @@ export default function Movies() {
       <MovieList>
         {data.map((item) => (
           <MovieCard key={item.id}>
-            <img width={200} alt={item.title} src={item.posterURL} />
+            <img
+              width={200}
+              alt={item.title}
+              src={item.posterURL}
+              //loading="lazy"
+            />
             <b>{item.title}</b>
           </MovieCard>
         ))}
